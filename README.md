@@ -52,18 +52,18 @@ goto [http://localhost:4200] and see if app works.
 
 ## Deployment
 build app for deploy:
-$ ng build --prod
+```$ ng build --prod```
 
 goto [https://console.firebase.google.com/] and create a new Firebase project.
 
 install firebase tools:
- $ npm install -g firebase-tools
+ ```$ npm install -g firebase-tools```
 
 deploy to firebase:
-$ firebase login
+```$ firebase login```
 
 after authentication, run:
-$ firebase init
+```$ firebase init```
 
 First of all you're being asked which of the Firebase client features you want to use. Select the option Hosting: Configure and deploy Firebase Hosting site. Next the Firebase client will ask which folder to use for deployment. Type in dist. That is important because that is the location where our production build is stored. 
  
@@ -74,19 +74,6 @@ Last question is if Firebase should over write file index.html. The answer to th
 
 now run:
  $ firebase deploy
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## References
 
