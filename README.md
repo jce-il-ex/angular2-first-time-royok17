@@ -20,18 +20,18 @@ What things you need to install the software and how to install them
 
 A step by step 
 
-```
 nodejs & npm:
+```
 [https://nodejs.org/en/download/]
 ```
 
-```
 git:
+```
 [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git]
 ```
 
-```
 angular2 CLI:
+```
 $ npm install angular-cli -g
 ```
 
@@ -39,13 +39,13 @@ $ npm install angular-cli -g
 ## Create your app
 
 Create app: 
-$ ng new my-app
+```$ ng new my-app```
 
 Enter app directory: 
-$ cd fb-host-test
+```$ cd fb-host-test```
 
 Run app: 
-$ ng serve
+```$ ng serve```
 
 
 goto [http://localhost:4200] and see if app works.
