@@ -15,6 +15,8 @@ What things you need to install the software and how to install them
 - git
 - angular2 CLI
 
+### IDE
+VS code [https://code.visualstudio.com/]
 
 ### Installing
 
